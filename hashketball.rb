@@ -133,7 +133,7 @@ end
 # Build a method, num_points_scored that takes in an argument of a player's name and returns the number of points scored for that player.
 
 def num_points_scored(player_name)
-  
+  players = game_hash[:home][:players][:player_name].merge(game_hash[:away][:players][:player_name])
 end
 
 binding.pry 
